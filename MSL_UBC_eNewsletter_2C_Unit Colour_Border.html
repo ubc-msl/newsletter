@@ -257,6 +257,15 @@
 				max-width:560px !important;
 			}
 
+			/* /\/\/\/\/\/\/\/\/\/\ STANDARD STYLING: SIDEBAR /\/\/\/\/\/\/\/\/\/\ */
+			/**
+			* @tab Sidebar
+			* @section sidebar text
+			*/
+			td.sidebarContent div {
+				font-size: 12px;
+			}
+
 			/* /\/\/\/\/\/\/\/\/\/\ STANDARD STYLING: MAIN BODY /\/\/\/\/\/\/\/\/\/\ */
 
 			/**
@@ -291,8 +300,12 @@
 				/*@editable*/ color:#525252;
 				/*@editable*/ font-family:Arial;
 				/*@editable*/ font-size:14px;
-				/*@editable*/ line-height:150%;
+				/*@editable*/ line-height:115%;
 				/*@editable*/ text-align:left;
+			}
+			.bodyContent div p, .bodyContent div ul, .bodyContent div ol{
+				margin-top:0;
+				margin-bottom:0;
 			}
 
 			/**
@@ -584,13 +597,32 @@
                                                          <tr><td>
                                                            <!-- editable block -->
 <div id="content04" mc:edit mc:repeatable>
+                                                         <!-- 
                                                          <p style="color:#ffffff;margin-left:22px; margin-right:22px; margin-top:10px; margin-bottom:10px; font-size: 14px; font-weight:normal; text-align:left; line-height: 16px">For more news and events... </p>
+                                                       		-->
+                                                       		<h5 style="color:#ffffff; margin-left:22px; margin-right:22px; margin-top:10px; margin-bottom:10px; text-transform:uppercase; font-size: 16px; text-align:left">Other News 2</h5>
+
             </div>
 <!-- /editable -->                                              
                                                          </td>
                                                          </tr>
                                                          </table>
                                                         
+																													<table border="0" cellpadding="20" cellspacing="0" width="100%" bgcolor="#ffffff">
+	                                                          <tr mc:repeatable>
+	                                                            <td valign="top"><div mc:edit="tiwc200_content03">
+	                                                              <h4 class="h4">Heading 4</h4>
+	                                                              <strong>Repeatable content blocks:</strong> Nam enim risus, molestie et, porta ac, aliquam ac, risus. Quisque lobortis. Phasellus pellentesque purus in massa. Aenean in pede. Phasellus ac libero ac tellus pellentesque semper. Sed ac felis. Sed commodo, magna quis lacinia ornare, quam ante aliquam nisi, eu iaculis leo purus venenatis dui.
+																																<ul>
+																																<li>List item one</li>
+																																<li>List item two</li>
+																																<li>List item three</li>
+																																</ul>
+
+																																</div></td>
+	                                                          </tr>
+	                                                        </table>
+
                                                         </td>
                                                       </tr>
                                                     </table></td>
@@ -680,22 +712,33 @@
 
   <tr>
    <!-- editable block -->
+   <!--
    <td><a href="facebook.com"><img name="Socialmedia_r1_c1" src="http://www.ubc.ca/_assets/img/newsletter/fb.jpg" width="24" height="24" id="Socialmedia_r1_c1" alt="facebook" /></a></td>
+ 	 -->
    <!-- /editable -->
+   <!--
    <td><img name="Socialmedia_r1_c2" src="http://www.ubc.ca/_assets/img/newsletter/spacer.gif" width="5" height="24" id="Socialmedia_r1_c2" alt="" /></td>
-    <!-- editable block -->
-   <td><a href="twitter.com"><img name="Socialmedia_r1_c3" src="http://www.ubc.ca/_assets/img/newsletter/tw.jpg" width="24" height="24" id="Socialmedia_r1_c3" alt="twitter" /></a></td>
+   -->
+   <!-- editable block -->
+   <td><a href="https://twitter.com/ubcmsl"><img name="Socialmedia_r1_c3" src="http://www.ubc.ca/_assets/img/newsletter/tw.jpg" width="24" height="24" id="Socialmedia_r1_c3" alt="twitter" /></a></td>
    <!-- /editable -->
+   <!--
    <td><img name="Socialmedia_r1_c4" src="http://www.ubc.ca/_assets/img/newsletter/spacer.gif" width="4" height="24" id="Socialmedia_r1_c4" alt="" /></td>
-    <!-- editable block -->
+   -->
+   <!-- editable block -->
+   <!--
    <td><a href="linkedin.com"><img name="Socialmedia_r1_c5" src="http://www.ubc.ca/_assets/img/newsletter/ln.jpg" width="24" height="24" id="Socialmedia_r1_c5" alt="linkedin" /></a></td>
+ 	 -->
    <!-- /editable -->
-   <td><img name="Socialmedia_r1_c6" src="http://www.ubc.ca/_assets/img/newsletter/spacer.gif" width="4" height="24" id="Socialmedia_r1_c6" alt="" /></td>
-   
-   <td><a href="google.com"><img name="Socialmedia_r1_c7" src="http://www.ubc.ca/_assets/img/newsletter/gp.jpg" width="24" height="24" id="Socialmedia_r1_c7" alt="google" /></a></td>
+   <!--
+   <td><img name="Socialmedia_r1_c6" src="http://www.ubc.ca/_assets/img/newsletter/spacer.gif" width="4" height="24" id="Socialmedia_r1_c6" alt="" /></td>   
+   <td><a href="google.com"><img name="Socialmedia_r1_c7" src="http://www.ubc.ca/_assets/img/newsletter/gp.jpg" width="24" height="24" id="Socialmedia_r1_c7" alt="google" /></a></td> 		
    <td><img name="Socialmedia_r1_c8" src="http://www.ubc.ca/_assets/img/newsletter/spacer.gif" width="4" height="24" id="Socialmedia_r1_c8" alt="" /></td>
-    <!-- editable block -->
+    -->
+   <!-- editable block -->
+   <!--
    <td><a href="youtube.com"><img name="Socialmedia_r1_c9" src="http://www.ubc.ca/_assets/img/newsletter/ut.jpg" width="24" height="24" id="Socialmedia_r1_c9" alt="youtube" /></a></td>
+   -->
    <!-- /editable -->
    <td><img src="http://www.ubc.ca/_assets/img/newsletter/spacer.gif" width="1" height="24" alt="" /></td>
   </tr>
@@ -724,7 +767,11 @@
                                	                <td valign="top" width="300">
                                                 <div mc:edit="std_footer"> <a href="http://www.ubc.ca/site/legal.html" target="_blank" style="color:#ffffff;text-decoration:none; font-size:10px">&copy; Copyright The University of British Columbia</a> </div></td>
                                	                <td valign="top"  id="monkeyRewards" align="right" style="text-align: right;">
-                                                <div mc:edit="std_utility" class="textAlignRight" style="color:#ffffff; font-size:10px"> &nbsp;<a href="*|UNSUB|*" style="text-decoration:none; color:#ffffff;" target="_blank">Unsubscribe</a> |  <a href="*|UPDATE_PROFILE|*" style="text-decoration:none; color:#ffffff;" target="_blank">Update profile</a> | <a href="*|LIST:DESCRIPTION|*" style="text-decoration:none;color:#ffffff;" target="_blank">List description</a>&nbsp; </div></td>
+                               	                	&nbsp;
+	                               	                <!--
+	                                                <div mc:edit="std_utility" class="textAlignRight" style="color:#ffffff; font-size:10px"> &nbsp;<a href="*|UNSUB|*" style="text-decoration:none; color:#ffffff;" target="_blank">Unsubscribe</a> |  <a href="*|UPDATE_PROFILE|*" style="text-decoration:none; color:#ffffff;" target="_blank">Update profile</a> | <a href="*|LIST:DESCRIPTION|*" style="text-decoration:none;color:#ffffff;" target="_blank">List description</a>&nbsp; </div>
+	                                                -->
+                                                </td>
                            	                  </tr>
                            	                </table>
                                	            <!-- // End Module: Standard Footer \\ --></td>
